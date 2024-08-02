@@ -1,0 +1,26 @@
+.titulo_fondo{
+    background-image: url('/img/imagenprincipal.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0; /* Aumentar el padding para dar más espacio a la imagen */
+    color: white;
+    min-height: 600px; /* Ajustar la altura según sea necesario */
+}
+
+.navbar {
+    width: 100%; /* Ajusta el ancho de la barra de navegación al 100% */
+    max-width: 1200px; /* Establece un ancho máximo para evitar que se expanda indefinidamente */
+    height: 80px;
+    margin: 0 auto; /* Centra la barra de navegación horizontalmente */
+}
+
+.table-centered {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    width: 50%; /* Ancho de la tabla */
+    max-width: 600px; /* Ancho máximo para evitar que se expanda demasiado */
+}
+
+.mt-4 {
+    margin-top: 2rem !important; /* Ajusta el margen superior */
+}
+

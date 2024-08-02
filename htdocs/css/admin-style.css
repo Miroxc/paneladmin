@@ -1,0 +1,60 @@
+/* Estilos para el cuerpo y encabezados */
+body {
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+.titulo {
+    color: #007bff; /* Color del título principal */
+}
+
+/* Estilos para el formulario */
+#formulario {
+    background-color: #ffffff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.form-label {
+    color: #6c757d; /* Color del texto de las etiquetas */
+}
+
+.form-control {
+    border-color: #ced4da; /* Color del borde de los campos de entrada */
+}
+
+/* Estilos para la tabla */
+#tablaDatos {
+    margin-top: 20px;
+}
+
+.table {
+    background-color: #ffffff; /* Color de fondo de la tabla */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa; /* Color de fondo alternado de las filas */
+}
+
+/* Estilos para botones y acciones */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón primario */
+    border-color: #007bff; /* Color del borde del botón primario */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo del botón primario al pasar el mouse */
+    border-color: #0056b3; /* Color del borde del botón primario al pasar el mouse */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Color de fondo del botón de eliminar */
+    border-color: #dc3545; /* Color del borde del botón de eliminar */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Color de fondo del botón de eliminar al pasar el mouse */
+    border-color: #c82333; /* Color del borde del botón de eliminar al pasar el mouse */
+}
